@@ -1,7 +1,82 @@
 fileFormatVersion: 2
-guid: 5026cd49a4648b44499c49a4cae1034a
+guid: f8f3d1032987fc346af0b9bff0cc7b57
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: walls-tileset-sliced_0
+  - first:
+      213: 21300002
+    second: walls-tileset-sliced_1
+  - first:
+      213: 21300004
+    second: walls-tileset-sliced_2
+  - first:
+      213: 21300006
+    second: walls-tileset-sliced_3
+  - first:
+      213: 21300008
+    second: walls-tileset-sliced_4
+  - first:
+      213: 21300010
+    second: walls-tileset-sliced_5
+  - first:
+      213: 21300012
+    second: walls-tileset-sliced_6
+  - first:
+      213: 21300014
+    second: walls-tileset-sliced_7
+  - first:
+      213: 21300016
+    second: walls-tileset-sliced_8
+  - first:
+      213: 21300018
+    second: walls-tileset-sliced_9
+  - first:
+      213: 21300020
+    second: walls-tileset-sliced_10
+  - first:
+      213: 21300022
+    second: walls-tileset-sliced_11
+  - first:
+      213: 21300024
+    second: walls-tileset-sliced_12
+  - first:
+      213: 21300026
+    second: walls-tileset-sliced_13
+  - first:
+      213: 21300028
+    second: walls-tileset-sliced_14
+  - first:
+      213: 21300030
+    second: walls-tileset-sliced_15
+  - first:
+      213: 21300032
+    second: walls-tileset-sliced_16
+  - first:
+      213: 21300034
+    second: walls-tileset-sliced_17
+  - first:
+      213: 21300036
+    second: walls-tileset-sliced_18
+  - first:
+      213: 21300038
+    second: walls-tileset-sliced_19
+  - first:
+      213: 21300040
+    second: walls-tileset-sliced_20
+  - first:
+      213: 21300042
+    second: walls-tileset-sliced_21
+  - first:
+      213: 21300044
+    second: walls-tileset-sliced_22
+  - first:
+      213: 21300046
+    second: walls-tileset-sliced_23
+  - first:
+      213: 21300048
+    second: walls-tileset-sliced_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -34,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,16 +138,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,10 +157,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,10 +170,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +185,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPA_Enemy_Right_0
+      name: walls-tileset-sliced_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 4
-        width: 32
-        height: 32
+        x: 32
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,18 +199,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a88ce516a9aa68746bd9c92a530d9213
-      internalID: 981520259
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Enemy_Right_1
+      name: walls-tileset-sliced_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 4
+        x: 64
+        y: 80
         width: 32
         height: 32
       alignment: 0
@@ -145,18 +220,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d3a2741975db8e47a07a0ebe6bf10a6
-      internalID: 606965377
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Enemy_Right_2
+      name: walls-tileset-sliced_2
       rect:
         serializedVersion: 2
-        x: 86
-        y: 4
+        x: 112
+        y: 80
         width: 32
         height: 32
       alignment: 0
@@ -166,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0001361bcffd2df49876a5850b5b7d72
-      internalID: 259716273
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Enemy_Right_3
+      name: walls-tileset-sliced_3
       rect:
         serializedVersion: 2
-        x: 124
-        y: 4
+        x: 16
+        y: 16
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23902dea5fa52db43a19cdce7dff1f93
-      internalID: 1010399943
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Enemy_Right_4
+      name: walls-tileset-sliced_4
       rect:
         serializedVersion: 2
-        x: 162
-        y: 4
+        x: 64
+        y: 16
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d305b57222f935c44aed2043915e43c2
-      internalID: -1462212602
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Enemy_Right_5
+      name: walls-tileset-sliced_5
       rect:
         serializedVersion: 2
-        x: 200
-        y: 4
+        x: 112
+        y: 16
         width: 32
-        height: 32
+        height: 48
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +304,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32c149c56b6ec404f8df9cb36dd87280
-      internalID: -1554981796
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -238,7 +313,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: ace783d21d3fe6542900ddbb5f440273
     internalID: 0
     vertices: []
     indices: 
@@ -246,12 +321,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SPA_Enemy_Right_0: 981520259
-      SPA_Enemy_Right_1: 606965377
-      SPA_Enemy_Right_2: 259716273
-      SPA_Enemy_Right_3: 1010399943
-      SPA_Enemy_Right_4: -1462212602
-      SPA_Enemy_Right_5: -1554981796
+      walls-tileset-sliced_0: 21300000
+      walls-tileset-sliced_1: 21300002
+      walls-tileset-sliced_2: 21300004
+      walls-tileset-sliced_3: 21300006
+      walls-tileset-sliced_4: 21300008
+      walls-tileset-sliced_5: 21300010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
