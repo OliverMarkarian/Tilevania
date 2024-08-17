@@ -1,7 +1,82 @@
 fileFormatVersion: 2
-guid: 40e780939d532c244a88cd526962e349
+guid: e8eeee797a1eb41268234a175d2079ac
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: walls-tileset-sliced_0
+  - first:
+      213: 21300002
+    second: walls-tileset-sliced_1
+  - first:
+      213: 21300004
+    second: walls-tileset-sliced_2
+  - first:
+      213: 21300006
+    second: walls-tileset-sliced_3
+  - first:
+      213: 21300008
+    second: walls-tileset-sliced_4
+  - first:
+      213: 21300010
+    second: walls-tileset-sliced_5
+  - first:
+      213: 21300012
+    second: walls-tileset-sliced_6
+  - first:
+      213: 21300014
+    second: walls-tileset-sliced_7
+  - first:
+      213: 21300016
+    second: walls-tileset-sliced_8
+  - first:
+      213: 21300018
+    second: walls-tileset-sliced_9
+  - first:
+      213: 21300020
+    second: walls-tileset-sliced_10
+  - first:
+      213: 21300022
+    second: walls-tileset-sliced_11
+  - first:
+      213: 21300024
+    second: walls-tileset-sliced_12
+  - first:
+      213: 21300026
+    second: walls-tileset-sliced_13
+  - first:
+      213: 21300028
+    second: walls-tileset-sliced_14
+  - first:
+      213: 21300030
+    second: walls-tileset-sliced_15
+  - first:
+      213: 21300032
+    second: walls-tileset-sliced_16
+  - first:
+      213: 21300034
+    second: walls-tileset-sliced_17
+  - first:
+      213: 21300036
+    second: walls-tileset-sliced_18
+  - first:
+      213: 21300038
+    second: walls-tileset-sliced_19
+  - first:
+      213: 21300040
+    second: walls-tileset-sliced_20
+  - first:
+      213: 21300042
+    second: walls-tileset-sliced_21
+  - first:
+      213: 21300044
+    second: walls-tileset-sliced_22
+  - first:
+      213: 21300046
+    second: walls-tileset-sliced_23
+  - first:
+      213: 21300048
+    second: walls-tileset-sliced_24
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -34,7 +109,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -63,16 +138,16 @@ TextureImporter:
   compressionQualitySet: 0
   textureFormatSet: 0
   ignorePngGamma: 0
-  applyGammaDecoding: 0
+  applyGammaDecoding: 1
   swizzle: 50462976
-  cookieLightType: 0
+  cookieLightType: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,10 +157,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -95,10 +170,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +185,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_0
+      name: walls-tileset-sliced_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 190
-        width: 32
-        height: 32
+        x: 64
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2515645a0b12af44bae75a19577e07c
-      internalID: 1654463368
+      spriteID: 02305410000000000800000000000000
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_1
+      name: walls-tileset-sliced_1
       rect:
         serializedVersion: 2
-        x: 38
-        y: 190
-        width: 32
-        height: 32
+        x: 80
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 057ec6c5a3461654d8cb7b911bb37e29
-      internalID: 1397831890
+      spriteID: 22305410000000000800000000000000
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_2
+      name: walls-tileset-sliced_2
       rect:
         serializedVersion: 2
-        x: 76
-        y: 190
-        width: 32
-        height: 32
+        x: 112
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +241,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 68adf0637eb0c2d4bb479d3fc2105a1d
-      internalID: 559683962
+      spriteID: 42305410000000000800000000000000
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_3
+      name: walls-tileset-sliced_3
       rect:
         serializedVersion: 2
-        x: 114
-        y: 190
-        width: 32
-        height: 32
+        x: 128
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +262,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 558852b9261d1ac4bad58dd066e7442b
-      internalID: -1569713814
+      spriteID: 62305410000000000800000000000000
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_4
+      name: walls-tileset-sliced_4
       rect:
         serializedVersion: 2
-        x: 152
-        y: 190
-        width: 32
-        height: 32
+        x: 32
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 213ccb37adb9067409493d649aa114ba
-      internalID: 143827145
+      spriteID: 82305410000000000800000000000000
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_5
+      name: walls-tileset-sliced_5
       rect:
         serializedVersion: 2
-        x: 0
-        y: 152
-        width: 32
-        height: 32
+        x: 64
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +304,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc8beecb495c9774aaf39c666b7536f2
-      internalID: 274762427
+      spriteID: a2305410000000000800000000000000
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_6
+      name: walls-tileset-sliced_6
       rect:
         serializedVersion: 2
-        x: 38
-        y: 152
-        width: 32
-        height: 32
+        x: 80
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +325,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18938236cb8bbf9489c46b446044034c
-      internalID: 1383711271
+      spriteID: c2305410000000000800000000000000
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_7
+      name: walls-tileset-sliced_7
       rect:
         serializedVersion: 2
-        x: 76
-        y: 152
-        width: 32
-        height: 32
+        x: 112
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ecf8bdae976d2f348a4cbfb0a34cac40
-      internalID: 839826261
+      spriteID: e2305410000000000800000000000000
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_8
+      name: walls-tileset-sliced_8
       rect:
         serializedVersion: 2
-        x: 114
-        y: 152
-        width: 32
-        height: 32
+        x: 128
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +367,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b89fda3e2f260c440a2a215df4c0f2f3
-      internalID: 311709930
+      spriteID: 03305410000000000800000000000000
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_9
+      name: walls-tileset-sliced_9
       rect:
         serializedVersion: 2
-        x: 152
-        y: 152
-        width: 32
-        height: 32
+        x: 16
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,20 +388,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ba6bee4b6deb2545a98e6a424e77fbb
-      internalID: 465904053
+      spriteID: 23305410000000000800000000000000
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_10
+      name: walls-tileset-sliced_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 114
-        width: 32
-        height: 32
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,20 +409,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e70dba29be52b4e4bb1802e67ae7a42f
-      internalID: 1289510477
+      spriteID: 43305410000000000800000000000000
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_11
+      name: walls-tileset-sliced_11
       rect:
         serializedVersion: 2
-        x: 38
-        y: 114
-        width: 32
-        height: 32
+        x: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +430,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d1bf304f058a6d647974053695ed7af9
-      internalID: 1176057283
+      spriteID: 63305410000000000800000000000000
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_12
+      name: walls-tileset-sliced_12
       rect:
         serializedVersion: 2
-        x: 76
-        y: 114
-        width: 32
-        height: 32
+        x: 80
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,20 +451,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a167db42010c6b478e860dc31b4eb02
-      internalID: -86409902
+      spriteID: 83305410000000000800000000000000
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_13
+      name: walls-tileset-sliced_13
       rect:
         serializedVersion: 2
-        x: 114
-        y: 114
-        width: 32
-        height: 32
+        x: 112
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b0295b111904d942affb7c3beb0de6f
-      internalID: -393956068
+      spriteID: a3305410000000000800000000000000
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_14
+      name: walls-tileset-sliced_14
       rect:
         serializedVersion: 2
-        x: 152
-        y: 114
-        width: 32
-        height: 32
+        x: 128
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,20 +493,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7fae8eced0f91004c95ee6398f398c93
-      internalID: -98806702
+      spriteID: c3305410000000000800000000000000
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_15
+      name: walls-tileset-sliced_15
       rect:
         serializedVersion: 2
-        x: 0
-        y: 76
-        width: 32
-        height: 32
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,20 +514,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f406e1b1b243064c95c118cfe6c5133
-      internalID: 2020902871
+      spriteID: e3305410000000000800000000000000
+      internalID: 21300030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_16
+      name: walls-tileset-sliced_16
       rect:
         serializedVersion: 2
-        x: 38
-        y: 76
-        width: 32
-        height: 32
+        x: 64
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,20 +535,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08dc934997834724894b7cd7627a0fac
-      internalID: 133451071
+      spriteID: 04305410000000000800000000000000
+      internalID: 21300032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_17
+      name: walls-tileset-sliced_17
       rect:
         serializedVersion: 2
-        x: 76
-        y: 76
-        width: 32
-        height: 32
+        x: 80
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +556,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e57d842cb691eba4f8399759982ef6a4
-      internalID: -804897913
+      spriteID: 24305410000000000800000000000000
+      internalID: 21300034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_18
+      name: walls-tileset-sliced_18
       rect:
         serializedVersion: 2
-        x: 114
-        y: 76
-        width: 32
-        height: 32
+        x: 112
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,20 +577,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e3c457359d5a7f49b108be5986ce085
-      internalID: -1070378487
+      spriteID: 44305410000000000800000000000000
+      internalID: 21300036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_19
+      name: walls-tileset-sliced_19
       rect:
         serializedVersion: 2
-        x: 152
-        y: 76
-        width: 32
-        height: 32
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,20 +598,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ece81cc00cd7b064c8ef19603a20a9cb
-      internalID: -1872076119
+      spriteID: 64305410000000000800000000000000
+      internalID: 21300038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_20
+      name: walls-tileset-sliced_20
       rect:
         serializedVersion: 2
-        x: 0
-        y: 38
-        width: 32
-        height: 32
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,20 +619,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d5f8b7b4a8019c4c84c6419ef11b96e
-      internalID: 1616439339
+      spriteID: 84305410000000000800000000000000
+      internalID: 21300040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_21
+      name: walls-tileset-sliced_21
       rect:
         serializedVersion: 2
-        x: 38
-        y: 38
-        width: 32
-        height: 32
+        x: 64
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,20 +640,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 280a3719a030a574f8162ade3f9c5f73
-      internalID: -934629344
+      spriteID: a4305410000000000800000000000000
+      internalID: 21300042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_22
+      name: walls-tileset-sliced_22
       rect:
         serializedVersion: 2
-        x: 76
-        y: 38
-        width: 32
-        height: 32
+        x: 80
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,20 +661,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0409ee2b2103f9a4fbdff8109df16634
-      internalID: -2119296568
+      spriteID: c4305410000000000800000000000000
+      internalID: 21300044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_23
+      name: walls-tileset-sliced_23
       rect:
         serializedVersion: 2
-        x: 114
-        y: 38
-        width: 32
-        height: 32
+        x: 112
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,20 +682,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e65ae5618516f2945a9156d4e844fbe5
-      internalID: -2045551687
+      spriteID: e4305410000000000800000000000000
+      internalID: 21300046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_24
+      name: walls-tileset-sliced_24
       rect:
         serializedVersion: 2
-        x: 152
-        y: 38
-        width: 32
-        height: 32
+        x: 128
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,113 +703,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94fb2008a6b7a6942a1be96e9328df57
-      internalID: -1947770236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_25
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8bc285b4b607dd14a882112d499323a1
-      internalID: 432109293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_26
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9d4de195dfcb49c4db842fee142ee8fc
-      internalID: -1676581984
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_27
-      rect:
-        serializedVersion: 2
-        x: 76
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7dff0a516d5d3840a4efa5ad0d552e9
-      internalID: 56160661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_28
-      rect:
-        serializedVersion: 2
-        x: 114
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ee3253b0fe6b64428666829ed9a9d9d
-      internalID: -1524914850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SPA_Rock_Grass_Water_29
-      rect:
-        serializedVersion: 2
-        x: 152
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 254f69780d0d1074cbbb2a4ec011ce0b
-      internalID: 1276269498
+      spriteID: 05305410000000000800000000000000
+      internalID: 21300048
       vertices: []
       indices: 
       edges: []
@@ -742,7 +712,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -750,36 +720,31 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SPA_Rock_Grass_Water_0: 1654463368
-      SPA_Rock_Grass_Water_1: 1397831890
-      SPA_Rock_Grass_Water_10: 1289510477
-      SPA_Rock_Grass_Water_11: 1176057283
-      SPA_Rock_Grass_Water_12: -86409902
-      SPA_Rock_Grass_Water_13: -393956068
-      SPA_Rock_Grass_Water_14: -98806702
-      SPA_Rock_Grass_Water_15: 2020902871
-      SPA_Rock_Grass_Water_16: 133451071
-      SPA_Rock_Grass_Water_17: -804897913
-      SPA_Rock_Grass_Water_18: -1070378487
-      SPA_Rock_Grass_Water_19: -1872076119
-      SPA_Rock_Grass_Water_2: 559683962
-      SPA_Rock_Grass_Water_20: 1616439339
-      SPA_Rock_Grass_Water_21: -934629344
-      SPA_Rock_Grass_Water_22: -2119296568
-      SPA_Rock_Grass_Water_23: -2045551687
-      SPA_Rock_Grass_Water_24: -1947770236
-      SPA_Rock_Grass_Water_25: 432109293
-      SPA_Rock_Grass_Water_26: -1676581984
-      SPA_Rock_Grass_Water_27: 56160661
-      SPA_Rock_Grass_Water_28: -1524914850
-      SPA_Rock_Grass_Water_29: 1276269498
-      SPA_Rock_Grass_Water_3: -1569713814
-      SPA_Rock_Grass_Water_4: 143827145
-      SPA_Rock_Grass_Water_5: 274762427
-      SPA_Rock_Grass_Water_6: 1383711271
-      SPA_Rock_Grass_Water_7: 839826261
-      SPA_Rock_Grass_Water_8: 311709930
-      SPA_Rock_Grass_Water_9: 465904053
+      walls-tileset-sliced_0: 21300000
+      walls-tileset-sliced_1: 21300002
+      walls-tileset-sliced_10: 21300020
+      walls-tileset-sliced_11: 21300022
+      walls-tileset-sliced_12: 21300024
+      walls-tileset-sliced_13: 21300026
+      walls-tileset-sliced_14: 21300028
+      walls-tileset-sliced_15: 21300030
+      walls-tileset-sliced_16: 21300032
+      walls-tileset-sliced_17: 21300034
+      walls-tileset-sliced_18: 21300036
+      walls-tileset-sliced_19: 21300038
+      walls-tileset-sliced_2: 21300004
+      walls-tileset-sliced_20: 21300040
+      walls-tileset-sliced_21: 21300042
+      walls-tileset-sliced_22: 21300044
+      walls-tileset-sliced_23: 21300046
+      walls-tileset-sliced_24: 21300048
+      walls-tileset-sliced_3: 21300006
+      walls-tileset-sliced_4: 21300008
+      walls-tileset-sliced_5: 21300010
+      walls-tileset-sliced_6: 21300012
+      walls-tileset-sliced_7: 21300014
+      walls-tileset-sliced_8: 21300016
+      walls-tileset-sliced_9: 21300018
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
