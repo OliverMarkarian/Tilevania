@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 7021765872628327017}
   - component: {fileID: 5464405102457322426}
   - component: {fileID: 968590600039056795}
+  - component: {fileID: 6690832545482084099}
   m_Layer: 0
   m_Name: Metroman
   m_TagString: Untagged
@@ -82,7 +83,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.625, y: 1.25}
+  m_Size: {x: 0.625, y: 1.21875}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -121,7 +122,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.76569766
+  m_Mass: 0.86173916
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -168,8 +169,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006966591, y: 0.003483057}
-  m_Size: {x: 0.68073285, y: 1.2709002}
+  m_Offset: {x: -0.006966591, y: 0.1}
+  m_Size: {x: 0.68073285, y: 1.4119856}
   m_Direction: 0
 --- !u!114 &968590600039056795
 MonoBehaviour:
@@ -201,3 +202,17 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &6690832545482084099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5709285515160009564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94838560fc1bb6b4388b6dca742f14a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runSpeed: 4.5
+  jumpSpeed: 5
