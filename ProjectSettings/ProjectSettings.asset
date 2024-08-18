@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 4ca8d0b0e08c36d4695f69b22bef005c
+  productGUID: 7bfce2ab2ec615d47ad98744a702e0ac
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Tilevania
+  productName: Tilevania 2D
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -630,14 +630,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Tilevania
+  metroPackageName: Tilevania 2D
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Tilevania
+  metroApplicationDescription: Tilevania 2D
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -706,10 +706,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 1fd670f5-3083-4966-afee-bd77e6dc6b7c
+  cloudProjectId: 55513ae9-9638-47db-be9a-d3863771832a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Tilevania
+  projectName: Tilevania 2D
   organizationId: unity_cce0acb2468fbb288f8a
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
