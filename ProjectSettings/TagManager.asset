@@ -15,7 +15,7 @@ TagManager:
   - Climbing
   - Player
   - Background
-  - 
+  - Bouncing
   - 
   - 
   - 
@@ -46,6 +46,9 @@ TagManager:
     locked: 0
   - name: Water
     uniqueID: 2330708201
+    locked: 0
+  - name: Bouncing
+    uniqueID: 904825767
     locked: 0
   - name: Platforms
     uniqueID: 2112087207
