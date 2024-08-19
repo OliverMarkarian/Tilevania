@@ -8,7 +8,7 @@ public class EnemyMovement : MonoBehaviour
     Rigidbody2D myRigidBody;
     BoxCollider2D myBoxCollider;
     CapsuleCollider2D myCapsuleCollider;
-    
+
     [SerializeField] float moveSpeed = 1f;
     void Start()
     {
@@ -25,10 +25,15 @@ public class EnemyMovement : MonoBehaviour
 
     void OnTriggerExit2D(Collider2D other)
     {
-        moveSpeed = -moveSpeed;
-        FlipEnemyFacing();
+        if (other.tag != "Enemy")
+        {
+            moveSpeed = -moveSpeed;
+            FlipEnemyFacing();
+        }
+
     }
-    void FlipEnemyFacing(){
+    void FlipEnemyFacing()
+    {
         transform.localScale = new Vector2(-Mathf.Sign(myRigidBody.velocity.x), 1f);
     }
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -42,6 +43,7 @@ public class PlayerMovement : MonoBehaviour
         FlipSprite();
         ClimbLadder();
         Die();
+        
 
         if (!Mouse.current.leftButton.isPressed)
         {
@@ -113,6 +115,7 @@ public class PlayerMovement : MonoBehaviour
             GetComponent<AudioSource>().Play();
             myRigidBody.velocity = deathkick;
             deathParticles.Play();
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
         }
     }
     void OnFire(InputValue value)
