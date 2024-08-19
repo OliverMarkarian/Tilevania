@@ -10,13 +10,19 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float runSpeed = 11f;
     [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 10f;
-    bool isAlive = true;
+    [SerializeField] ParticleSystem deathParticles;
+    [SerializeField] Vector2 deathkick = new Vector2(10f, 10f);
 
+    [SerializeField] GameObject bullet;
+    [SerializeField] Transform gun;
+    bool isAlive = true;
+    bool isShooting = false;
     float normalGravity;
     Rigidbody2D myRigidBody;
     Animator myAnimator;
     CapsuleCollider2D myBodyCollider;
     BoxCollider2D myFeetCollider;
+
     void Start()
     {
         myRigidBody = GetComponent<Rigidbody2D>();
@@ -24,6 +30,7 @@ public class PlayerMovement : MonoBehaviour
         myBodyCollider = GetComponent<CapsuleCollider2D>();
         myFeetCollider = GetComponent<BoxCollider2D>();
         normalGravity = myRigidBody.gravityScale;
+        deathParticles = GetComponent<ParticleSystem>();
 
     }
 
@@ -36,6 +43,11 @@ public class PlayerMovement : MonoBehaviour
         ClimbLadder();
         Die();
 
+        if (!Mouse.current.leftButton.isPressed)
+        {
+            isShooting = false;
+            myAnimator.SetBool("isShooting", false);
+        }
     }
     void OnMove(InputValue value)
     {
@@ -92,10 +104,27 @@ public class PlayerMovement : MonoBehaviour
         myAnimator.SetBool("isClimbing", playerHasVerticalSpeed);
     }
 
-    public void Die()
+    void Die()
     {
-        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies"))){
+        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies", "Hazards")))
+        {
             isAlive = false;
+            myAnimator.SetTrigger("Dying");
+            GetComponent<AudioSource>().Play();
+            myRigidBody.velocity = deathkick;
+            deathParticles.Play();
         }
+    }
+    void OnFire(InputValue value)
+    {
+        if (!isAlive) { return; }
+        if (value.isPressed)
+        {
+            isShooting = true;
+            Instantiate(bullet, gun.position, transform.rotation);
+        }
+        myAnimator.SetBool("isShooting", isShooting);
+
+
     }
 }
