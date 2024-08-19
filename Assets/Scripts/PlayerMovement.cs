@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float runSpeed = 11f;
     [SerializeField] float jumpSpeed = 5f;
     [SerializeField] float climbSpeed = 10f;
+    bool isAlive = true;
 
     float normalGravity;
     Rigidbody2D myRigidBody;
@@ -28,17 +29,23 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        if (!isAlive) { return; }
+
         Run();
         FlipSprite();
         ClimbLadder();
+        Die();
+
     }
     void OnMove(InputValue value)
     {
+        if (!isAlive) { return; }
         moveinput = value.Get<Vector2>();
     }
 
     void OnJump(InputValue value)
     {
+        if (!isAlive) { return; }
         if (!myFeetCollider.IsTouchingLayers(LayerMask.GetMask("Ground"))) { return; }
 
         if (value.isPressed)
@@ -83,5 +90,12 @@ public class PlayerMovement : MonoBehaviour
 
         bool playerHasVerticalSpeed = Mathf.Abs(myRigidBody.velocity.y) > Mathf.Epsilon;
         myAnimator.SetBool("isClimbing", playerHasVerticalSpeed);
+    }
+
+    public void Die()
+    {
+        if (myBodyCollider.IsTouchingLayers(LayerMask.GetMask("Enemies"))){
+            isAlive = false;
+        }
     }
 }
