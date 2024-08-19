@@ -23525,6 +23525,10 @@ PrefabInstance:
       propertyPath: m_ChildCameras.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 538978398197263991, guid: 0473d23e84264b449940293a558e326c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4245523526696965851, guid: 0473d23e84264b449940293a558e326c, type: 3}
       propertyPath: m_Follow
       value: 
