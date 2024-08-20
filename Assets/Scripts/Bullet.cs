@@ -8,6 +8,8 @@ public class Bullet : MonoBehaviour
     Rigidbody2D myRigidBody;
     [SerializeField] float bulletSpeed = 5f;
     PlayerMovement playerMovement;
+    [SerializeField] int pointsForEnemyDead = 100;
+
     float xSpeed;
 
     void Start()
@@ -26,6 +28,7 @@ public class Bullet : MonoBehaviour
     {
         if (other.tag == "Enemy")
         {
+            FindObjectOfType<GameSession>().addScore(pointsForEnemyDead);
             Destroy(other.gameObject);
 
         }

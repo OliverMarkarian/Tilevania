@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: b4502c35625d92244bcb7868bf2d2609, type: 2}
+    - target: {fileID: 1820716184921084647, guid: 76a092defd47a124297764530966e709, type: 3}
+      propertyPath: moveSpeed
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3686536633364842105, guid: 76a092defd47a124297764530966e709, type: 3}
       propertyPath: m_Name
       value: Crab Variant
