@@ -137,7 +137,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 912, y: 468}
+  m_AnchoredPosition: {x: 789, y: 474}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9007292906142549524
@@ -168,7 +168,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Score: 50000'
+  m_text: 5000 Points
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7e1b7cd4a6f0e7349bba277d90619ac9, type: 2}
   m_sharedMaterial: {fileID: 8155016800105549419, guid: 7e1b7cd4a6f0e7349bba277d90619ac9, type: 2}
@@ -202,7 +202,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 4
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -417,5 +417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerLives: 3
+  playerScore: 0
   livesText: {fileID: 4985406700992175332}
   scoreText: {fileID: 4732849155451054510}
+  GameSound: {fileID: 8300000, guid: 1cacdb09050bf55488c7cbd3f5a77f3b, type: 3}

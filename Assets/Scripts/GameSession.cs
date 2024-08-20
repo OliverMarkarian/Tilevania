@@ -11,6 +11,7 @@ public class GameSession : MonoBehaviour
     [SerializeField] int playerScore = 0;
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] AudioClip GameSound;
     void Awake()
     {
         int numGameSessions = FindObjectsOfType<GameSession>().Length;

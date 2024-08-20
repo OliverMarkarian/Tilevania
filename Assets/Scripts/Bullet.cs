@@ -7,6 +7,7 @@ public class Bullet : MonoBehaviour
 {
     Rigidbody2D myRigidBody;
     [SerializeField] float bulletSpeed = 5f;
+    [SerializeField] AudioClip bulletSound;
     PlayerMovement playerMovement;
     [SerializeField] int pointsForEnemyDead = 100;
 
@@ -17,6 +18,7 @@ public class Bullet : MonoBehaviour
         myRigidBody = GetComponent<Rigidbody2D>();
         playerMovement = FindObjectOfType<PlayerMovement>();
         xSpeed = playerMovement.transform.localScale.x * bulletSpeed;
+        AudioSource.PlayClipAtPoint(bulletSound, Camera.main.transform.position,0.2f);
     }
 
     void Update()

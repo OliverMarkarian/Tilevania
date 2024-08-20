@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &538978398197263991
+--- !u!1 &924502838966171650
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1866089655559601749}
-  - component: {fileID: 5741479649488736582}
+  - component: {fileID: 8574024141708492932}
+  - component: {fileID: 3540025195854833446}
   m_Layer: 0
   m_Name: Music
   m_TagString: Untagged
@@ -17,13 +17,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1866089655559601749
+--- !u!4 &8574024141708492932
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538978398197263991}
+  m_GameObject: {fileID: 924502838966171650}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -32,21 +32,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 4554172648557466087}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &5741479649488736582
+--- !u!82 &3540025195854833446
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 538978398197263991}
+  m_GameObject: {fileID: 924502838966171650}
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1cacdb09050bf55488c7cbd3f5a77f3b, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -250,7 +250,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1866089655559601749}
+  - {fileID: 8574024141708492932}
   m_Father: {fileID: 5680108062620408711}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!20 &9075186162930701366
@@ -965,10 +965,7 @@ MonoBehaviour:
   m_AnimatedTarget: {fileID: 0}
   m_LayerIndex: 0
   m_ShowDebugText: 0
-  m_ChildCameras:
-  - {fileID: 4245523526696965851}
-  - {fileID: 7635923306737651762}
-  - {fileID: 4728750051778887999}
+  m_ChildCameras: []
   m_Instructions:
   - m_FullHash: -397766897
     m_VirtualCamera: {fileID: 4728750051778887999}
