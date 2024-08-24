@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] float bulletSpeed = 5f;
     [SerializeField] AudioClip bulletSound;
     PlayerMovement playerMovement;
+    //Testing
     [SerializeField] int pointsForEnemyDead = 100;
 
     float xSpeed;
