@@ -227,6 +227,7 @@ MonoBehaviour:
   deathkick: {x: -2, y: 20}
   bullet: {fileID: 7872108114383049544, guid: 8b792be69dcbe0b469600d33ab996b1c, type: 3}
   gun: {fileID: 6372825207673481526}
+  fireCooldown: 0.4
 --- !u!61 &6097747121212904350
 BoxCollider2D:
   m_ObjectHideFlags: 0

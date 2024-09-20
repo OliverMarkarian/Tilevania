@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
@@ -11,7 +10,11 @@ public class GameSession : MonoBehaviour
     [SerializeField] int playerScore = 0;
     [SerializeField] TextMeshProUGUI livesText;
     [SerializeField] TextMeshProUGUI scoreText;
+    [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] AudioClip GameSound;
+
+    private float startTime;
+
     void Awake()
     {
         int numGameSessions = FindObjectsOfType<GameSession>().Length;
@@ -29,25 +32,41 @@ public class GameSession : MonoBehaviour
     {
         livesText.text = playerLives.ToString() + " Lives";
         scoreText.text = playerScore.ToString() + " Points";
+        startTime = Time.time;
     }
+
+    void Update()
+    {
+        UpdateTimer();
+    }
+
+    void UpdateTimer()
+    {
+        float timeElapsed = Time.time - startTime; 
+        int minutes = Mathf.FloorToInt(timeElapsed / 60f);
+        int seconds = Mathf.FloorToInt(timeElapsed % 60f);
+        timerText.text = string.Format("{0:00}:{1:00}", minutes, seconds); 
+    }
+
     public void ProcessPlayerDeath()
     {
         if (playerLives > 1)
         {
-            Invoke("TakeLife",2);
+            Invoke("TakeLife", 2);
         }
         else
         {
-            Invoke("ResetGameSession",2);
-            
+            Invoke("ResetGameSession", 2);
         }
     }
+
     void ResetGameSession()
     {
         SceneManager.LoadScene(0);
         Destroy(gameObject);
         FindObjectOfType<ScenePersist>().ResetScenePersist();
     }
+
     void TakeLife()
     {
         playerLives--;
@@ -55,6 +74,7 @@ public class GameSession : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex);
         livesText.text = playerLives.ToString() + " Lives";
     }
+
     public void addScore(int scoreToAdd)
     {
         playerScore += scoreToAdd;

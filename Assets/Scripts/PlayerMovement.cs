@@ -13,9 +13,10 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float climbSpeed = 10f;
     [SerializeField] ParticleSystem deathParticles;
     [SerializeField] Vector2 deathkick = new Vector2(10f, 10f);
-
     [SerializeField] GameObject bullet;
     [SerializeField] Transform gun;
+    [SerializeField] float fireCooldown = 1f; 
+    private float lastFireTime = 0f;
     bool isAlive = true;
     bool isShooting = false;
     float normalGravity;
@@ -121,13 +122,12 @@ public class PlayerMovement : MonoBehaviour
     void OnFire(InputValue value)
     {
         if (!isAlive) { return; }
-        if (value.isPressed)
+        if (value.isPressed && Time.time >= lastFireTime + fireCooldown)
         {
             isShooting = true;
             Instantiate(bullet, gun.position, transform.rotation);
+            lastFireTime = Time.time;
         }
         myAnimator.SetBool("isShooting", isShooting);
-
-
     }
 }
